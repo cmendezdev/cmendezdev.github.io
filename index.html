@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carlos Mendez - Staff Software Engineer in Houston, TX. Backend developer focused on Go, building clean and fast services.">
+  <title>Carlos Mendez | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="#" class="nav-logo">CM</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Carlos Mendez</h1>
+      <p class="hero-title">Staff Software Engineer</p>
+      <p class="hero-tagline">Clean code. Fast services. Strong coffee.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="about-content">
+        <p>
+          I'm a backend engineer based in Houston, Texas, with seven years of experience
+          building services that are fast, reliable, and easy to reason about. I earned my
+          B.S. in Computer Science from the University of Houston in 2018 and have since
+          worked across infrastructure, cloud, and financial systems at BMC Software,
+          DigitalOcean, HashiCorp, and now JPMorgan Chase.
+        </p>
+        <p>
+          My philosophy is simple: good software is boring. It does what it says,
+          fails gracefully, and doesn't surprise you at 3 AM. I gravitate toward Go
+          for its clarity, but I'll reach for the right tool for the job.
+        </p>
+        <p class="about-detail">
+          When I'm not writing code, you'll find me analyzing chess openings or
+          hunting down the perfect espresso in Houston's coffee scene.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="skill-tags">
+            <li>Go</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Infrastructure</h3>
+          <ul class="skill-tags">
+            <li>Kubernetes</li>
+            <li>Terraform</li>
+            <li>AWS</li>
+            <li>Docker</li>
+            <li>Kafka</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Protocols</h3>
+          <ul class="skill-tags">
+            <li>gRPC</li>
+            <li>Protobuf</li>
+            <li>Prometheus</li>
+            <li>Git</li>
+            <li>GitHub Actions</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Exploring</h3>
+          <ul class="skill-tags">
+            <li>Rust</li>
+            <li>WebAssembly</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-date">2025 - Present</span>
+          <div class="timeline-body">
+            <h3>Staff Software Engineer</h3>
+            <p class="timeline-company">JPMorgan Chase</p>
+            <p class="timeline-desc">
+              Leading backend architecture for fraud detection pipelines, handling
+              high-throughput transaction streams with Go and Kafka.
+            </p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">2023 - 2025</span>
+          <div class="timeline-body">
+            <h3>Senior Software Engineer</h3>
+            <p class="timeline-company">HashiCorp</p>
+            <p class="timeline-desc">
+              Contributed to Terraform core and built internal tooling for state
+              migration across backends. Shipped features used by thousands of teams.
+            </p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">2021 - 2023</span>
+          <div class="timeline-body">
+            <h3>Software Engineer</h3>
+            <p class="timeline-company">DigitalOcean</p>
+            <p class="timeline-desc">
+              Worked on the Kubernetes platform team, improving cluster lifecycle
+              management and reducing provisioning times by 40%.
+            </p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">2019 - 2021</span>
+          <div class="timeline-body">
+            <h3>Associate Software Engineer</h3>
+            <p class="timeline-company">BMC Software</p>
+            <p class="timeline-desc">
+              Built real-time log parsing services and monitoring tooling for
+              enterprise IT operations products.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <article class="project-card">
+          <div class="project-header">
+            <h3>
+              <a href="https://github.com/cmendezdev/fraud-sim" target="_blank" rel="noopener noreferrer">fraud-sim</a>
+            </h3>
+          </div>
+          <p class="project-desc">
+            Generates synthetic transaction streams to stress-test fraud detection
+            pipelines. Used internally at JPMC for tuning system performance under load.
+          </p>
+          <ul class="project-tags">
+            <li>Go 1.20</li>
+            <li>Kafka</li>
+            <li>Prometheus</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>
+              <a href="https://github.com/cmendezdev/terraform-state-migrator" target="_blank" rel="noopener noreferrer">terraform-state-migrator</a>
+            </h3>
+          </div>
+          <p class="project-desc">
+            A tool for migrating Terraform state between backends with zero downtime.
+            Handles large state files and complex workspace configurations.
+          </p>
+          <ul class="project-tags">
+            <li>Go 1.18</li>
+            <li>Terraform 1.1</li>
+            <li>AWS SDK</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>
+              <a href="https://github.com/cmendezdev/k8s-resource-sweeper" target="_blank" rel="noopener noreferrer">k8s-resource-sweeper</a>
+            </h3>
+          </div>
+          <p class="project-desc">
+            Cleans up unused persistent volumes and load balancers across Kubernetes
+            namespaces, saving real money on cloud bills.
+          </p>
+          <ul class="project-tags">
+            <li>Go 1.14</li>
+            <li>client-go</li>
+            <li>Kubernetes 1.18</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>
+              <a href="https://github.com/cmendezdev/go-logstream" target="_blank" rel="noopener noreferrer">go-logstream</a>
+            </h3>
+          </div>
+          <p class="project-desc">
+            Fast log parser with real-time tailing. Built to scratch my own itch
+            at BMC when existing tools couldn't keep up with log volume.
+          </p>
+          <ul class="project-tags">
+            <li>Go 1.12</li>
+            <li>gRPC</li>
+            <li>Protobuf</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>
+              <a href="https://github.com/cmendezdev/chessbrain" target="_blank" rel="noopener noreferrer">chessbrain</a>
+            </h3>
+          </div>
+          <p class="project-desc">
+            UCI-compatible chess engine with a hand-tuned evaluation function.
+            Still loses to my coffee maker, but it's a fun side project that
+            keeps my C++ sharp.
+          </p>
+          <ul class="project-tags">
+            <li>C++17</li>
+            <li>Stockfish NNUE</li>
+            <li>CMake</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>
+              <a href="https://github.com/cmendezdev/cafe-brew-haven" target="_blank" rel="noopener noreferrer">cafe-brew-haven</a>
+            </h3>
+          </div>
+          <p class="project-desc">
+            A single-page site for a local coffee shop. Minimal, fast, and built
+            with vanilla everything because sometimes that's all you need.
+          </p>
+          <ul class="project-tags">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript ES6</li>
+            <li>Netlify</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact-intro">
+        I'm always happy to chat about Go, infrastructure, chess, or coffee.
+        Reach out if you want to collaborate or just say hello.
+      </p>
+      <ul class="contact-links">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:carlos@cmendez.dev">carlos@cmendez.dev</a>
+        </li>
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/cmendezdev" target="_blank" rel="noopener noreferrer">github.com/cmendezdev</a>
+        </li>
+        <li>
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://linkedin.com/in/cmendezdev" target="_blank" rel="noopener noreferrer">linkedin.com/in/cmendezdev</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Carlos Mendez. Built with vanilla HTML, CSS, and a splash of good taste.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
