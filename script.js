@@ -46,4 +46,3 @@
     observer.observe(item.section);
   });
 })();
-
