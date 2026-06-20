@@ -1,6 +1,6 @@
 # cmendezdev.github.io
 
-Personal portfolio website for Carlos Mendez, hosted via GitHub Pages.
+Personal portfolio website for Carlos Mendez.
 
 ## Stack
 
